@@ -3,25 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>progress steps</title>
+    <title>progress Steps</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
  <div class="container">
-    <div class="step_progress">
-        <div class="steps"> 1 </div>
-        <div class="lines"></div>
-        <div class="steps"> 2 </div>
-        <div class="lines"></div>
-        <div class="steps"> 3 </div>
-        <div class="lines"></div>
-        <div class="steps"> 4 </div>
+    <div class="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="circle active">1</div>
+        <div class="circle">2</div>
+        <div class="circle">3</div>
+        <div class="circle">4</div>
     </div>
-    <div class="buttons">
-        <button> Prev </button>
-        <button> Next </button>
+
+        <button class="btn" id="prev" disabled>Prev</button>
+        <button class="btn" id="next">Next</button>
     </div>
- </div>
 
 
 
