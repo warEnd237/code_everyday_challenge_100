@@ -41,11 +41,16 @@ function update() {
 
         if(currentActive === 1) {
             prev.disabled = true;
+            prev.style.display = "none";
         }else if(currentActive === circles.length) {
             next.disabled = true;
+            next.style.display = "none";
         }else {
             prev.disabled = false;
             next.disabled = false;
+            next.style.display = "inline-block";
+            prev.style.display = "inline-block";
+
         }
 }
 
