@@ -1,11 +1,8 @@
-const searching = document.getElementById('searching');
+const search = document.querySelector('.search');
+const btn = document.querySelector('.btn');
+const input = document.querySelector('.input');
 
-const space = document.getElementById('space');
-
-searching.addEventListener('click', () => {
-    if(space.style.display === 'none'){
-        space.style.display = 'inline-block';
-    } else{
-        space.style.display = 'none';
-    }
+btn.addEventListener('click', () => {
+    search.classList.toggle('active');
+    input.focus()
 })
