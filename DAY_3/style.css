@@ -56,7 +56,7 @@ body{
     color: #fff;
 }
 
-.circle button:focus{
+.circle button:focus{ 
     outline: none; 
 }
 
@@ -107,7 +107,7 @@ nav ul li + li{
 }
 
 nav ul li + li + li{
-    margin-left: 15px;
+    margin-left: 20px;
     transform: translateX(-200%);
 }
 
@@ -134,4 +134,33 @@ nav ul li + li + li{
 .content p{
     color: #333;
     line-height: 1.5;
+}
+
+a{
+    color: #fff;
+}
+
+.img{
+    position: relative;
+}
+
+.img-message{
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-message:hover{
+    opacity: 1;
+    background-color: #ffffff69;
 }
