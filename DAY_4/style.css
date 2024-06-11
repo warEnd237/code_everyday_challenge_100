@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e8cff3;
+    font-family:'Lato', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.search-container{
+    border: 2px solid #924040;
+    border-radius: 5px;
+    font-size: 2em;
+    padding : 0 5px;
+ 
+
+}
+input{
+    background-color: transparent;
+    width: fit-content;
+    color: #090909;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    transition: width 0.2s linear;
+}
+
+#searching{
+    color: #924040;
+    vertical-align: middle;
+    cursor: pointer;
+}
