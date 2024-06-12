@@ -5,6 +5,7 @@
 }
 
 body{
+    cursor: pointer;
     font-family:'Ubuntu', sans-serif;
     display: flex;
     margin: 0;
